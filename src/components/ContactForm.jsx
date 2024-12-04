@@ -48,8 +48,8 @@ function ContactForm(props) {
   return !props.edit ? (
     <div>
       <form className="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label>Name</label>
+        <div className="row mb-3">
+          <label for="inputEmail3" className="col-sm-2 col-form-label">Name</label>
           <input
           type="text"
           id="contactName"
@@ -60,8 +60,8 @@ function ContactForm(props) {
           onChange={handleChange}
           ></input>
         </div>
-        <div>
-          <label>Email</label>
+        <div className="row mb-3">
+          <label for="inputEmail3" className="col-sm-2 col-form-label">Email</label>
           <input
             type="text"
             id="email"
@@ -72,17 +72,17 @@ function ContactForm(props) {
             onChange={handleChange}
           ></input>
         </div>
-        <div>
-          <label>Message</label>
-          <input
-            type="textarea"
+        <div className="row mb-3">
+          <label for="inputEmail3" className="col-sm-2 col-form-label">Message</label>
+          <textarea
             id="Message"
             placeholder="Message"
+            rows="3"
             value={contactFormData.message}
             name="message"
-            className="contact-input"
+            className="form-control"
             onChange={handleChange}
-          ></input>
+          ></textarea>
         </div>
         <button className="contactMe-button">Add Contact Message</button>
       </form>
@@ -114,8 +114,7 @@ function ContactForm(props) {
           />
         </div>
         <div>
-          <input
-            type="textarea"
+          <textarea
             id="message"
             placeholder={props.edit.message}
             value={contactFormData.message}

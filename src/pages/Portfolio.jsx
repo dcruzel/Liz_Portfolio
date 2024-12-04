@@ -10,17 +10,17 @@ export default function Portfolio() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
-                <img src="Project 1" className="d-block w-100" alt="Training App"/>
+                <img src="/src/assets/Project_pictures/Training-App.png" className="d-block w-100" alt="Training App"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Project 1: Training App</h5>
-                    <p>Github</p>
+                    <p><a href="https://github.com/IsakTL/training-app">Github</a></p>
                 </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
-                <img src="./src/assets/Project_pictures/Training-App.png" className="d-block w-100" alt="Popcorn Powers"/>
+                <img src="./src/assets/Project_pictures/Popcorn-Powers.png" className="d-block w-100" alt="Popcorn Powers"/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Project 2: Popcorn Powers</h5>
-                    <p><a href="https://github.com/IsakTL/training-app">Github</a></p>
+                    <p><a href="https://github.com/settyburr/Project-2-Popcorn-Powers">Github</a></p>
                 </div>
                 </div>
                 <div className="carousel-item">
