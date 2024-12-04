@@ -7,11 +7,15 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+      <header>
       <Nav />
+      </header>
+      <body>
       {/* Todo: Fill in the appropriate component so that the user will conditionally see the appropriate view based on the URL */}
       <main className="mx-3">
         <Outlet />
       </main>  
+      </body>
       <Footer />  
     </>
   );
