@@ -3,17 +3,12 @@
 /* ****************************** */
 
 :root {
-  --pale-purple: #E5D9F2;
-  --magnolia: #F5EFFF;
-  --periwinkle: #CDC1FF;
-  --tropical-indigo: #A594F9;
-  --blue: #7371FC;
+  --gray: #7A7978;
+  --cambridge-blue: #87CBAC;
+  --aquamarine: #90FFDC;
+  --non-photo-blue: #8DE4FF;
+  --jordy-blue: #8AC4FF;
 }
-
-/* #name {
-  background-color: var(--tan);
-  box-shadow: -10px 5px var(--brown);
-} */
 
 
 #root {
@@ -21,10 +16,102 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: white;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+  
 }
-nav {
-  background-image: url("./assets/Project_pictures/Banner-GeminiAI.jpg")
+section p, h5{
+  border: 5px;
+  background-image: url("./assets/Project_pictures/Banner-GeminiAI.jpg");
 }
+header {
+  background-image: url("./assets/Project_pictures/Banner-GeminiAI.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+html, body {
+  background-image: url("./assets/Project_pictures/Bkgd_pic-GeminiAI.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  height: 100%;
+  font-style: normal;
+}
+header{
+  top:0px;
+  left:0%;
+  width: 100%;
+  position: fixed;
+}
+
+h1{
+  padding-top: 3%;
+  font-size: 50px;
+}
+
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  padding-bottom: 10rem;
+  align-items: center;
+}
+h5{
+  display: fixed;
+  text-align:center;
+  color: white;
+}
+.carousel-item p {
+  color: white;
+  text-align:center;
+}
+.carousel-caption p, .carosel-caption h5{
+  margin: 0.5rem 0;
+  text-align: center;
+  background-image: url("./assets/Project_pictures/Banner-GeminiAI.jpg");
+}
+.carosel-caption a {
+  text-decoration: none;
+  color: var(--cambridge-blue);
+  margin: 0 10px;
+}
+
+.carousel-inner img{
+  margin: auto;
+}
+
+
+
+
+footer{
+  text-align: center;
+  padding: 15px;
+  display:fixed;
+}
+footer p{
+  border-color:var(--cambridge-blue);
+  margin: 0; 
+  line-height: 1.5px;
+  color: white;
+}
+footer a{
+  margin: 0 10px;
+  padding: 5%;
+}
+footer h4{
+  margin: 50px 0 0;
+}
+
 /* 
 .logo {
   height: 6em;
@@ -53,11 +140,4 @@ nav {
     animation: logo-spin infinite 20s linear;
   }
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
+*/

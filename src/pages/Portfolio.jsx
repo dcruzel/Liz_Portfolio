@@ -1,12 +1,16 @@
 export default function Portfolio() {
     return (
-        <div>
+        <section>
+            <div>
             <h1>PORTFOLIO</h1>
             <div id="carouselExampleDark" className="carousel carousel-dark slide">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
@@ -24,9 +28,30 @@ export default function Portfolio() {
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="..." className="d-block w-100" alt="..."/>
+                <img src="./src/assets/Project_pictures/Project_pic1-FreePikAI.jpg" className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Project 3: Placeholder</h5>
+                    <p>Github: Placeholder</p>
+                </div>
+                </div>
+                <div className="carousel-item">
+                <img src="./src/assets/Project_pictures/Project_pic2-FreePikAI.jpg" className="d-block w-100" alt="..."/>
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>Project 4: Placeholder</h5>
+                    <p>Github: Placeholder</p>
+                </div>
+                </div>
+                <div className="carousel-item">
+                <img src="./src/assets/Project_pictures/Project_pic1-FreePikAI.jpg" className="d-block w-100" alt="..."/>
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>Project 5: Placeholder</h5>
+                    <p>Github: Placeholder</p>
+                </div>
+                </div>
+                <div className="carousel-item">
+                <img src="./src/assets/Project_pictures/Project_pic2-FreePikAI.jpg" className="d-block w-100" alt="..."/>
+                <div className="carousel-caption d-none d-md-block">
+                    <h5>Project 6: Placeholder</h5>
                     <p>Github: Placeholder</p>
                 </div>
                 </div>
@@ -39,7 +64,8 @@ export default function Portfolio() {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
-        </div>
-    </div>
+            </div>
+            </div>
+        </section>
     );
   } 
