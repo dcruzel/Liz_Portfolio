@@ -26,11 +26,11 @@
 /* Add background picture for the paragraph and heading 5 */
 section p, h5{
   border: 5px;
-  background-image: url("./assets/Project_pictures/Banner-GeminiAI.jpg");
+  background-image: url("../Project_pictures/Banner-GeminiAI.jpg");
 }
 /* Add Banner for the navigation bar */
 header {
-  background-image: url("./assets/Project_pictures/Banner-GeminiAI.jpg");
+  background-image: url("../Project_pictures/Banner-GeminiAI.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ header {
 
 /*Add background picture to the whole website*/
 html, body {
-  background-image: url("./assets/Project_pictures/Bkgd_pic-GeminiAI.jpg");
+  background-image: url("../Project_pictures/Bkgd_pic-GeminiAI.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,6 +67,7 @@ h1{
   width: 100%;
   max-width: 500px;
   max-height: 500px;
+  height:100%;
   padding-bottom: 10rem;
   align-items: center;
 }
@@ -82,7 +83,7 @@ h5{
 .carousel-caption p, .carosel-caption h5{
   margin: 0.5rem 0;
   text-align: center;
-  background-image: url("./assets/Project_pictures/Banner-GeminiAI.jpg");
+  background-image: url("./Project_pictures/Banner-GeminiAI.jpg");
 }
 .carosel-caption a {
   text-decoration: none;
@@ -111,8 +112,6 @@ footer p{
 footer a{
   margin: 0 10px;
   padding: 5%;
-}
-footer h4{
-  margin: 50px 0 0;
+  color: white;
 }
 
