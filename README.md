@@ -4,10 +4,6 @@
 ```md
 This project is create a portfolio, using my new React skills to differentiate me from my feellow developers and potential collaborators on future projects. 
 ```
-The database schema as shown in the following image:
-
-![Database schema includes tables labeled “employee,” role,” and “department.”](./Assets/100-sql-challenge-ERD.png)
-
 
 ## User Story
 ```md
@@ -56,13 +52,24 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Technology
 [![React](https://img.shields.io/badge/Framework-React-00ff00?style=plastic&logo=React&logoWidth=10)](https://reactjs.org/)
+[![Netlify Status](https://img.shields.io/badge/Deployed%20on-Netlify-brightgreen?style=plastic&logo=netlify&logoWidth=10)](https://www.netlify.com/)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-00ff00?style=plastic&logo=TypeScript&logoWidth=10)](https://www.typescriptlang.org/)
 [![npm](https://img.shields.io/badge/Tools-npm-ff0000?style=plastic&logo=npm&logoWidth=10)](https://www.npmjs.com/)
 [![VS Code](https://img.shields.io/badge/IDE-VSCode-ff0000?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
 
 ## Usage
 - [Github Repo](https://github.com/dcruzel/Liz_Portfolio)
-- [Website]()
+- [Website](https://lizwebsite.netlify.app/)
+
+## Resources
+
+- Activity from bootcamp used 
+    - Module 12: Activity 28 and Activity 24
+
+- Images from the following websites:
+    - [Coolors](https://coolors.co/)
+    - [Gemini AI](https://gemini.google.com/)
+    - [Freepik AI](https://www.freepik.com/)
 
 
 ## Contact

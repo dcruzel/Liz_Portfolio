@@ -1,5 +1,6 @@
+//Import ContactList
 import ContactList from '../components/ContactList';
-
+//Call the ContactList function in the section code
 export default function Contact() {
     return (
       <div>
