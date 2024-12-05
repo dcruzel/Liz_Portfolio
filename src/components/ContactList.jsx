@@ -1,11 +1,16 @@
+//import useState from react
 import { useState } from 'react';
+
+//import ContactForm and ContactMe
 import ContactForm from '../components/ContactForm';
 import ContactMe from '../components/ContactMe';
 
+
+//Create a ContactList function
 function ContactList() {
   const [contactMe, setContactMe] = useState([]);
 
-  // Function to add a contact list item
+  // Add a contact list item
   const addContactMeItem = (item) => {
     console.log(
       'Add contact me item',
@@ -25,7 +30,7 @@ function ContactList() {
     setContactMe(newContactMe);
   };
 
-  // Function that marked the contact list item as complete
+  // Function that marked the contact list item as completed
   const completeContactMeItem = (id) => {
     // If the ID passed to this function matches the ID of the item that was clicked, mark it as complete
     let updatedContactMe = contactMe.map((item) => {
@@ -59,7 +64,8 @@ function ContactList() {
       prev.map((item) => (item.id === itemId ? newValue : item))
     );
   };
-
+  //Return the functions to the website of adding, completing, removing and editing contactMe item
+  //Once leave the tab, it will not save.
   return (
     <div>
       <ContactForm onSubmit={addContactMeItem} />

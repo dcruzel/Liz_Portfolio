@@ -1,6 +1,7 @@
 //Add Footer
 export default function Footer() {
-  
+  //Add Github, LinkedIn, and Stack Overflow links
+  //Add Copyright
   return (
     <footer>
       <p>

@@ -1,9 +1,12 @@
+//import reactDom, createBrowserRouter, and RouterProvider
+
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
+//import bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Bringing in the pages the router will use to conditionally show the appropriate views
+// Bringing in the pages the router will use to conditionally
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import Portfolio from './pages/Portfolio';

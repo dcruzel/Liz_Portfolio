@@ -1,4 +1,5 @@
 export default function AboutMe() {
+    //Add about me description
     return (
         <div>
             <section>

@@ -1,7 +1,11 @@
-// Todo: Bring in the required import from 'react-router-dom'
+// import Outlet from 'react-router-dom'
 import {  Outlet } from 'react-router-dom';
+
+// import Navigation bar and Footer
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+
+//import App.css styles to the webpage
 import "./App.css";
 
 function App() {
