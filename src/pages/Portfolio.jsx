@@ -49,14 +49,14 @@ export default function Portfolio() {
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src={Image2} className="d-block w-100" alt="..."/>
+                <img src={image2} className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Project 5: Placeholder</h5>
                     <p>Github: Placeholder</p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src={Image1} className="d-block w-100" alt="..."/>
+                <img src={image1} className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Project 6: Placeholder</h5>
                     <p>Github: Placeholder</p>
