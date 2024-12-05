@@ -15,42 +15,42 @@ export default function Portfolio() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
-                <img src="./src/assets/Project_pictures/Training-App.png" className="d-block w-100" alt="Training App"/>
+                <img src="../Project_pictures/Training-App.png" className="d-block w-100" alt="Training App"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5><a href="https://isaktl.github.io/training-app/">Project 1: Training App</a></h5>
                     <p><a href="https://github.com/IsakTL/training-app">Github</a></p>
                 </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
-                <img src="./src/assets/Project_pictures/Popcorn-Powers.png" className="d-block w-100" alt="Popcorn Powers"/>
+                <img src="../Project_pictures/Popcorn-Powers.png" className="d-block w-100" alt="Popcorn Powers"/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5><a href="https://project-2-popcorn-powers.onrender.com">Project 2: Popcorn Powers</a></h5>
                     <p><a href="https://github.com/settyburr/Project-2-Popcorn-Powers">Github</a></p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="./src/assets/Project_pictures/Liz_Portfolio_img.png" className="d-block w-100" alt="..."/>
+                <img src="../Project_pictures/Liz_Portfolio_img.png" className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5><a href="https://lizwebsite.netlify.app/">LIZ's PORTFOLIO</a></h5>
                     <p><a href="https://github.com/dcruzel/Liz_Portfolio"> Github: Placeholder</a></p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="./src/assets/Project_pictures/Project_pic2-FreePikAI.jpg" className="d-block w-100" alt="..."/>
+                <img src="../Project_pictures/Project_pic2-FreePikAI.jpg" className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Project 4: Placeholder</h5>
                     <p>Github: Placeholder</p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="./src/assets/Project_pictures/Project_pic1-FreePikAI.jpg" className="d-block w-100" alt="..."/>
+                <img src="../Project_pictures/Project_pic1-FreePikAI.jpg" className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Project 5: Placeholder</h5>
                     <p>Github: Placeholder</p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="./src/assets/Project_pictures/Project_pic2-FreePikAI.jpg" className="d-block w-100" alt="..."/>
+                <img src="../Project_pictures/Project_pic2-FreePikAI.jpg" className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Project 6: Placeholder</h5>
                     <p>Github: Placeholder</p>
