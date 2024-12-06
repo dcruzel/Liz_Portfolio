@@ -6,6 +6,7 @@ function Nav() {
 
   return (
     <header>
+      
     <ul className="nav nav-tabs">
       <li className="nav-item">
         {/* Link the aboutMe as homepage */}

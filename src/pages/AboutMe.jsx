@@ -3,7 +3,11 @@ export default function AboutMe() {
     return (
         <div>
             <section>
-            <h1>ABOUT ME</h1>
+            <h1>ABOUT ME</h1> 
+            <img src= "../Project_pictures/PlaceholderPic.png"
+            alt="image" 
+            width="70" height="150" 
+            border="5"/> 
             <p>Hello! I'm Elizabeth D'Cruz, an experienced accountant with over seven years of expertise 
             in financial reporting, reconciliations, and process optimization. My career has equipped 
             me with a strong foundation in accounting and finance, complemented by a recent transition 
