@@ -54,14 +54,14 @@ function ContactList() {
   // Function to edit the contact me list item
   const editContactMeItem = (itemId, newValue) => {
     // Make sure that the value isn't empty
-    if (!newValue.message) {
+    if (!newValue.contactName.trim() || !newValue.email.trim() || !newValue.message.trim()) {
       return;
     }
 
     // We use the "prev" argument provided with the useState hook to map through our list of items
     // We then check to see if the item ID matches the if of the item that was clicked and if so we set it to a new value
     setContactMe((prev) =>
-      prev.map((item) => (item.id === itemId ? newValue : item))
+      prev.map((item) => (item.id === itemId ? {...item, ...newValue}: item))
     );
   };
   //Return the functions to the website of adding, completing, removing and editing contactMe item

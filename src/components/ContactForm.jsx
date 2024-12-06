@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 // Create ContactForm function
 function ContactForm(props) {
   //Initialize the state for object contactFormData using the variables: 
@@ -8,7 +8,17 @@ function ContactForm(props) {
     email: "",
     message: "",
   });
-  
+  // When in edit mode, fill in the form data
+  useEffect(() => {
+    if (props.edit) {
+      setcontactFormData({
+        contactName: props.edit.contactName || '',
+        email: props.edit.email || '',
+        message: props.edit.message || '',
+      });
+    }
+  }, [props.edit]);
+
   //Handles when the Submit button is pressed
   const handleSubmit = (e) => {
     //Prevents reloading the page
@@ -34,19 +44,23 @@ function ContactForm(props) {
       alert("Message cannot be blank");
       return;
     }
+
+    const formData = {
+      ...contactFormData, 
+      id: props.edit ? props.edit.id : Math.random(Math.floor()*1000), 
+    };
     
     //When submit, generate a random id for the message
-    props.onSubmit({
-      id: Math.random(Math.floor() * 1000),
-      ...contactFormData,
-    });
+    props.onSubmit(formData);
 
     //Set the contactFormData with the contactName, email and message variables
+    if (!props.edit){
     setcontactFormData({
       contactName: '', 
       email: "",
       message: "",
     });
+    }
   };
 
   //handleChange in the form variables
@@ -93,7 +107,7 @@ function ContactForm(props) {
           {/* message textarea */}
           <label for="inputMessage" className="col-sm-2 col-form-label">Message</label>
           <textarea
-            id="Message"
+            id="message"
             placeholder="Message"
             rows="3"
             value={contactFormData.message}
@@ -146,7 +160,7 @@ function ContactForm(props) {
           />
         </div>
         {/* Update button */}
-        <button className="contact-button">Update</button>
+        <button className="contactMe-button">Update</button>
       </form>
     </div>
   );

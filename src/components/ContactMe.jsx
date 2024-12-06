@@ -19,7 +19,7 @@ function ContactMe(props) {
 
   //Submit updated ContactMe
   const submitUpdate = (value) => {
-    props.editContactMeItem(edit.id, edit.contactName, edit.email, edit.message);
+    props.editContactMeItem(edit.id, value);
     setEdit({ id: null, contactName: '', email: '', message:''});
   };
 
