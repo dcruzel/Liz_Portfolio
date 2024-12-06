@@ -20,26 +20,31 @@
   font-family: "Mountains of Christmas", serif;
   font-weight: 700;
   font-style: normal;
-  
+  min-height: 100vh; 
 }
 
 /* Add background picture for the paragraph and heading 5 */
 section p, h5{
   border: 5px;
-  background-image: url("../Project_pictures/Banner-GeminiAI.jpg");
+  background-image: url("./Banner-GeminiAI.jpg");
 }
 /* Add Banner for the navigation bar */
 header {
-  background-image: url("../Project_pictures/Banner-GeminiAI.jpg");
+  background-image: url("./Banner-GeminiAI.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: black;
 }
 
+/* Add backgroud to section */
+section {
+  margin-bottom: 50px;
+}
+
 /*Add background picture to the whole website*/
 html, body {
-  background-image: url("../Project_pictures/Bkgd_pic-GeminiAI.jpg");
+  background-image: url("./Bkgd_pic-GeminiAI.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,7 +88,7 @@ h5{
 .carousel-caption p, .carosel-caption h5{
   margin: 0.5rem 0;
   text-align: center;
-  background-image: url("./Project_pictures/Banner-GeminiAI.jpg");
+  background-image: url("./Banner-GeminiAI.jpg");
 }
 .carosel-caption a {
   text-decoration: none;
@@ -100,18 +105,17 @@ h5{
 
 footer{
   text-align: center;
-  padding: 15px;
-  display:fixed;
+  margin-top: auto;
+  padding: 10px;
+  display: relative;
+  width:100%;
+  background-image: url("./Banner-GeminiAI.jpg");
+  line-height:10px;
 }
-footer p{
-  border-color:var(--cambridge-blue);
-  margin: 0; 
-  line-height: 1.5px;
-  color: white;
-}
+
 footer a{
-  margin: 0 10px;
-  padding: 5%;
+  margin: 0 5px;
+  padding: 2%;
   color: white;
 }
 
