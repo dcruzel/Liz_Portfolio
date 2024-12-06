@@ -3,7 +3,7 @@ export default function AboutMe() {
     return (
         <div>
             <section>
-            <h1>ABOUT ME</h1>
+            <h1>ABOUT ME</h1> 
             <img src= "../Project_pictures/PlaceholderPic.png"
             alt="image" 
             width="70" height="150" 
