@@ -15,21 +15,21 @@ export default function Portfolio() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
-                <img src="../Training-App.png" className="d-block w-100" alt="Training App"/>
+                <img src="../Training-App.jpg" className="d-block w-100" alt="Training App"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5><a href="https://isaktl.github.io/training-app/">Project 1: Training App</a></h5>
                     <p><a href="https://github.com/IsakTL/training-app">Github</a></p>
                 </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
-                <img src="../Popcorn-Powers.png" className="d-block w-100" alt="Popcorn Powers"/>
+                <img src="../Popcorn-Powers.jpg" className="d-block w-100" alt="Popcorn Powers"/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5><a href="https://project-2-popcorn-powers.onrender.com">Project 2: Popcorn Powers</a></h5>
                     <p><a href="https://github.com/settyburr/Project-2-Popcorn-Powers">Github</a></p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="../Liz_Portfolio_img.png" className="d-block w-100" alt="..."/>
+                <img src="../Liz_Portfolio_img.jpg" className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                     <h5><a href="https://lizwebsite.netlify.app/">LIZ's PORTFOLIO</a></h5>
                     <p><a href="https://github.com/dcruzel/Liz_Portfolio"> Github: Placeholder</a></p>

@@ -4,7 +4,7 @@ export default function AboutMe() {
         <div>
             <section>
             <h1>ABOUT ME</h1> 
-            <img src= "../Project_pictures/PlaceholderPic.png"
+            <img src= "../Public/PlaceholderPic.jpg"
             alt="image" 
             width="70" height="150" 
             border="5"/> 
